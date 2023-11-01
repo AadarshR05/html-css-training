@@ -1,0 +1,195 @@
+.footer-container {
+  width: 100%;
+  background: #eaf2ff;
+  padding: 300px 5px 130px 15px;
+  display: contents;
+  align-items: center;
+}
+.footer-top-container {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+  /* background: aqua; */
+  padding: 100px 30px 50px;
+  display: flex;
+  /* flex-flow: wrap; */
+  /* align-items: flex-end; */
+}
+
+.footer-logoAndText-container {
+  /* flex: 40%; */
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  width: 100%;
+  flex-basis: 41%;
+  max-width: 41%;
+  flex-grow: 0;
+}
+.footer-logo {
+  flex: 1;
+  flex-basis: 66%;
+  max-width: 66%;
+}
+.footer-logo img {
+  width: 250px;
+}
+.footer-logo-text {
+  flex: 1;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  flex-basis: 66%;
+  max-width: 72%;
+}
+.footer-aboutAndLegal-container {
+  display: flex;
+  /* flex-direction: column; */
+  /* background-color: green; */
+  width: 100%;
+  flex-basis: 59%;
+  max-width: 59%;
+  flex-grow: 0;
+}
+.aboutGG,
+.legal {
+  flex: 1;
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+.heading {
+  flex-basis: 100%;
+  max-width: 100%;
+  flex-grow: 0;
+}
+.heading p {
+  margin: 0px;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  font-weight: 700;
+  font-family: "Inter";
+}
+.contents {
+  flex-basis: 50%;
+  max-width: 50%;
+  flex-grow: 0;
+}
+.contents p {
+  margin: 0px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  font-size: 15px;
+  color: black;
+  font-family: Inter;
+}
+.footer-container hr {
+  margin: 0px;
+  border-width: 0px 0px thin;
+  border-style: solid;
+  border-color: black;
+  display: block;
+
+  overflow: hidden;
+}
+.footer-bottom-container {
+  width: 80%;
+  margin-left: 10%;
+  /* background: red; */
+  padding: 100px 30px 50px;
+  display: flex;
+  flex-flow: wrap;
+  align-items: flex-end;
+}
+.address-container,
+.mailGG-container{
+  flex-basis: 25%;
+  max-width: 25%;
+  flex-grow: 0;
+  display: flex;
+}
+.footer-text {
+  flex-basis: 91%;
+  max-width: 91%;
+  flex-grow: 0;
+}
+.footer-icon {
+  flex-basis: 9%;
+  max-width: 9%;
+  flex-grow: 0;
+}
+.spacer {
+  flex-basis: 9%;
+  max-width: 9%;
+  flex-grow: 0;
+  /* display: flex; */
+}
+.contactNos {
+  flex-basis: 16%;
+  max-width: 16%;
+  flex-grow: 0;
+  display: flex;
+}
+.socialMedia-container{
+    flex-basis: 25%;
+  max-width: 25%;
+  flex-grow: 0;
+  display: flex;
+  row-gap: 8px;
+  flex-flow: wrap;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+.socialMedia-text{
+    flex-basis: 100%;
+    max-width: 100%;
+    flex-grow: 0;
+}
+socialMedia-icon{
+    flex-basis: 100%;
+    flex-grow: 0;
+    max-width: 100%;
+}
+.copyright-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+.copyright-container p{
+letter-spacing: 0.00938em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 14px;
+    opacity: 80%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188.5%;
+}
+.footer-text p{
+    margin: 0px;
+    font-weight: 400;
+    letter-spacing: 0.00938em;
+    line-height: 180%;
+    font-family: Inter;
+    font-size: 14px;
+}
+.socialMedia-text p{
+    margin: 0px;
+    letter-spacing: 0.00938em;
+    font-size: 21px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 188.5%;
+}

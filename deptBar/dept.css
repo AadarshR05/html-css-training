@@ -2,7 +2,7 @@
   width: 90%;
   margin-left: 6%;
   /* background-color: aqua; */
-  margin-top: 200px;
+  margin-top: 240px;
 }
 .textAndIcon {
   box-sizing: border-box;
@@ -36,7 +36,13 @@
   flex: 1;
   /* margin-left: 10px; */
 }
-
+.deptIcon{
+  display: inline-flex;
+  
+}
+.deptIcon .leftArrow{
+  opacity: 50%;
+}
 .deptImgs {
   height: 327px;
   width: 100%;

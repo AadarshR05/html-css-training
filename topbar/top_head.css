@@ -36,7 +36,7 @@ letter-spacing: 0.02em; */
   top: 470px;
   left: 200px;
 }
-.bookAppoint {
+.button1 {
   border: none;
   color: white;
   padding: 15px 32px;
@@ -68,10 +68,10 @@ i {
 .form {
   box-sizing: border-box;
   background: white;
-  width: 800px;
+  width: 850px;
   height: 300px;
   position: absolute;
-  top: 525px;
+  top: 536px;
   /* display: flex; */
   /* flex-flow: wrap; */
   left: 280px;

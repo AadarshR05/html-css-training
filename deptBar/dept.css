@@ -1,0 +1,83 @@
+.ourDepartment-container {
+  width: 90%;
+  margin-left: 6%;
+  /* background-color: aqua; */
+  margin-top: 200px;
+}
+.textAndIcon {
+  box-sizing: border-box;
+  flex-flow: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.deptHeading {
+  margin: 0px;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.departments {
+  display: flex;
+  padding: 20px 0px 20px 0px;
+  justify-content: space-between;
+}
+.deptArrangement {
+  flex: 1;
+  margin-right: 35px;
+}
+.deptArrangement2 {
+  flex: 1;
+  /* margin-left: 10px; */
+}
+
+.deptImgs {
+  height: 327px;
+  width: 100%;
+}
+.arrangementTitle {
+  margin: 0px;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  font-family: "Inter";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+}
+.arrangementDefinition {
+  margin: 0px;
+  line-height: 1.5;
+  margin-top: 5px;
+  letter-spacing: 0.36px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 30px;
+}
+a {
+  color: rgb(23, 193, 163);
+}
+a:hover {
+  cursor: pointer;
+}
+.arrangementReadMore {
+  margin: 0px;
+  line-height: 1.5;
+  color: rgb(23, 193, 163);
+  letter-spacing: 0.36px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.youmay{
+    margin-top: 0;
+}

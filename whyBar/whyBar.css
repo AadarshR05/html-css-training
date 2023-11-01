@@ -1,0 +1,48 @@
+.whyGG-container{
+    width: 90%;
+    margin-left: 6%;
+    background: #E8F9F6;
+
+    margin-top: 200px;
+    
+  }
+  .imgAndText{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    /* flex-flow: wrap; */
+  }
+
+  .doctorsImg{
+    flex: 60%;
+    width: 59%;
+  }
+  .doctorsImg img{
+    width: 1100px;
+    height: 600px;
+  }
+  .whyGGtext{
+    flex: 40%;
+    width: 100%;
+    left: 20px;
+    text-align: start;
+    margin-right: 120px;
+  }
+  .headingText{
+    margin: 0px;
+    line-height: 1.5;
+    color: black;
+    font-family: "Inter";
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    margin-top: 100px;
+  }
+  .points {
+    display: flex;
+    margin-top: 40px;
+    overflow-wrap: break-word;
+  }
+  .points img{
+    margin-right: 10px;
+  }

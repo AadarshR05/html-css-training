@@ -1,0 +1,77 @@
+.newsletter-container {
+  width: 90%;
+  margin-left: 6%;
+  /* background: #e8f9f6; */
+  margin-top: 200px;
+}
+.newsletter {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+}
+.textSection {
+  flex-basis: 50%;
+  flex-grow: 0;
+  max-width: 50%;
+  background-color: #fff;
+  background-image: url("/newsletter/img/mask.png");
+  background-repeat: no-repeat;
+  height: 223px;
+  width: 50%;
+}
+.textSection p {
+  margin: 0px;
+  line-height: 1.5;
+  color: black;
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+}
+.inputSection {
+  flex-basis: 50%;
+  flex-grow: 0;
+  max-width: 50%;
+}
+.formNews {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: top;
+  width: 500px;
+}
+.mailIDNews {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.43em;
+  letter-spacing: 0.00938em;
+  padding: 0px;
+  display: block;
+  transform-origin: left top;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 50%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  
+  background-color: white;
+}
+.mailIDNews p {
+  margin: 0px;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  color: black;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  opacity: 0.3;
+}

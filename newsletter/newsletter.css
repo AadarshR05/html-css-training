@@ -1,77 +1,84 @@
 .newsletter-container {
-  width: 90%;
-  margin-left: 6%;
-  /* background: #e8f9f6; */
-  margin-top: 200px;
-}
-.newsletter {
-  box-sizing: border-box;
-  display: flex;
   width: 100%;
-}
-.textSection {
-  flex-basis: 50%;
-  flex-grow: 0;
-  max-width: 50%;
-  background-color: #fff;
-  background-image: url("/newsletter/img/mask.png");
-  background-repeat: no-repeat;
-  height: 223px;
-  width: 50%;
-}
-.textSection p {
-  margin: 0px;
-  line-height: 1.5;
-  color: black;
-  font-family: "Inter";
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.75px;
-}
-.inputSection {
-  flex-basis: 50%;
-  flex-grow: 0;
-  max-width: 50%;
-}
-.formNews {
-  display: inline-flex;
-  flex-direction: column;
-  position: relative;
-  min-width: 0;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  vertical-align: top;
-  width: 500px;
-}
-.mailIDNews {
-  color: black;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.43em;
-  letter-spacing: 0.00938em;
-  padding: 0px;
-  display: block;
-  transform-origin: left top;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 50%;
+  background: #eaf2ff;
   position: absolute;
-  left: 0px;
-  top: 0px;
-  
-  background-color: white;
+  z-index: -1;
+  top: 4292px;
+  padding: 300px 5px 130px 15px;
 }
-.mailIDNews p {
-  margin: 0px;
-  font-size: 1rem;
-  line-height: 1.5;
-  letter-spacing: 0.00938em;
-  color: black;
+
+.newsletterTotal {
+  width: 91%;
+  margin-left: 5%;
+  position: relative;
+  /* margin-right: 5%; */
+  height: 232px;
+  background-color: #ffffff;
+}
+
+.newsletterTotal img {
+  width: 100%;
+  height: 100%;
+  margin-left: 0px;
+}
+.newsletter-contents {
+  /* background: aqua; */
+  margin-left: 10%;
+  position: absolute;
+  /* margin-top: 1%; */
+  top:73px;
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
+  /* align-self: center; */
+  width: 80%;
+  padding: 30px 30px 30px 30px;
+}
+.subscribe{
+  margin-left: -29px;
+  /* display: flex;
+  align-items: start; */
+  
+}
+.subscribe p{
+  margin-top: -3px;
   font-family: "Inter";
-  font-style: normal;
-  font-weight: 300;
-  opacity: 0.3;
+font-size: 19px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+ .enterEmail{
+  margin-left: 0;
+  justify-content: end;
+  /* display: inline-flex; */
+}
+.typingField{
+  display: inline-flex;
+}
+.enterEmail hr{
+  border: 0;
+  border-top: 1px solid #000;
+  width: 93%;
+  margin-left: 19px;
+  /* margin-top: -5px; */
+}
+.enterEmail input{
+  border: 0px solid;
+  padding: 12px 20px;
+  width: 53%;
+  margin: 5px 0;
+  border-radius: 6px;
+  outline: none;
+  /* vertical-align: bottom; */
+  
+}
+.sub{
+  height: 40px;
+  width: 154px;
+  margin-left: 10px;
+  margin-top: 6px;
+  align-items: center;
 }

@@ -20,6 +20,7 @@
   .doctorsImg img{
     width: 1100px;
     height: 600px;
+    margin-bottom: -5px;
   }
   .whyGGtext{
     flex: 40%;

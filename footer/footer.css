@@ -1,14 +1,21 @@
+footer-main-container{
+    width: 90%;
+  margin-left: 6%;
+  /* background-color: aqua; */
+  margin-top: 200px;
+}
 .footer-container {
   width: 100%;
-  background: #eaf2ff;
+  background: white;
   padding: 300px 5px 130px 15px;
-  display: contents;
+  display: block;
   align-items: center;
+  margin-top: 378px;
 }
 .footer-top-container {
   width: 80%;
   margin-left: 10%;
-  margin-top: 50px;
+  margin-top: -298px;
   /* background: aqua; */
   padding: 100px 30px 50px;
   display: flex;
@@ -37,13 +44,13 @@
 .footer-logo-text {
   flex: 1;
   font-family: Inter;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 0em;
   text-align: left;
   flex-basis: 66%;
-  max-width: 72%;
+  max-width: 66%;
 }
 .footer-aboutAndLegal-container {
   display: flex;
@@ -54,12 +61,21 @@
   max-width: 59%;
   flex-grow: 0;
 }
-.aboutGG,
+.aboutGG{
+    flex: 1;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  width: 100%;
+  /* justify-content: space-between; */
+  box-sizing: border-box;
+}
 .legal {
   flex: 1;
   display: flex;
   flex-flow: wrap;
   width: 100%;
+  /* justify-content: space-between; */
   box-sizing: border-box;
 }
 .heading {
@@ -81,21 +97,22 @@
   flex-grow: 0;
 }
 .contents p {
-  margin: 0px;
+  margin: 30px 0px 0px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.00938em;
   font-size: 15px;
   color: black;
-  font-family: Inter;
+  font-family: "Inter";
 }
 .footer-container hr {
-  margin: 0px;
+  margin-left: 11%;
+  width: 76%;
   border-width: 0px 0px thin;
-  border-style: solid;
+  /* border-style: solid; */
   border-color: black;
   display: block;
-
+    opacity: 60%;
   overflow: hidden;
 }
 .footer-bottom-container {
@@ -106,8 +123,27 @@
   display: flex;
   flex-flow: wrap;
   align-items: flex-end;
+  margin-top: -73px;
 }
-.address-container,
+.address-container{
+    flex-basis: 34%;
+  max-width: 34%;
+  flex-grow: 0;
+  display: flex;
+}
+.footer-text-address{
+    flex-basis: 66%;
+    max-width: 66%;
+    margin-left: 0px;
+    /* margin: 0px; */
+    font-weight: 400;
+    letter-spacing: 0.00938em;
+    line-height: 180%;
+    font-family: "Inter";
+    font-size: 12px;
+    margin-left: 2px;
+}
+
 .mailGG-container{
   flex-basis: 25%;
   max-width: 25%;
@@ -124,12 +160,12 @@
   max-width: 9%;
   flex-grow: 0;
 }
-.spacer {
+/* .spacer {
   flex-basis: 9%;
   max-width: 9%;
   flex-grow: 0;
-  /* display: flex; */
-}
+  
+}  */
 .contactNos {
   flex-basis: 16%;
   max-width: 16%;
@@ -183,6 +219,7 @@ letter-spacing: 0.00938em;
     line-height: 180%;
     font-family: Inter;
     font-size: 14px;
+    margin-left: 4px;
 }
 .socialMedia-text p{
     margin: 0px;

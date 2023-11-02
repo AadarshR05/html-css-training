@@ -1,13 +1,13 @@
-footer-main-container{
-    width: 90%;
-  margin-left: 6%;
+.footer-main-container{
+    width: 100%;
+  /* margin-left: 6%; */
   /* background-color: aqua; */
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
 .footer-container {
   width: 100%;
   background: white;
-  padding: 300px 5px 130px 15px;
+  padding: 300px 5px 0px 15px;
   display: block;
   align-items: center;
   margin-top: 480px;
